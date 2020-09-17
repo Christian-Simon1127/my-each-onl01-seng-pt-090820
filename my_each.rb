@@ -5,7 +5,7 @@ def my_each(array) # put argument(s) here
     "There is nothing in the array"
   else
     while counter < array.length
-      yield(array)
+      yield(array[counter])
       counter += 1
     end
     array
