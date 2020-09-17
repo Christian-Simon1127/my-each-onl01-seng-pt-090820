@@ -6,6 +6,7 @@ def my_each(array) # put argument(s) here
   else
     while counter < array.length
       yield(array)
+      counter+
     end
     array
   end
